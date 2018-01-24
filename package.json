@@ -1,0 +1,17 @@
+{
+  "name": "bug-demo-photon-ant-import",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "less": "^2.7.3",
+    "npm-run-all": "^4.1.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "npm-run-all build:less start:js",
+    "start:js": "react-scripts start",
+    "build:less": "lessc src/less/demo.less src/css/demo.css"
+  }
+}
